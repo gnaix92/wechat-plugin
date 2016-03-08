@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#9409"
+        android:padding="10dp"
+        android:text="打开辅助服务"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="说明：开启外挂后，请确保微信聊天的群组设置里，消息免打扰功能处于关闭状态；并且微信设置里的新消息提醒，都处于开启状态！"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="外挂开启后，建议手机回到桌面。如果没有设置屏幕锁定方式，支持待机自动抢红包，如果设置了锁定方式，请保存屏幕常亮"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+</RelativeLayout>
