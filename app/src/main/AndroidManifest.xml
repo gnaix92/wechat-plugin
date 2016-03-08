@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codeboy.qianghongbao" >
+    package="com.gnaix.wechatplugin" >
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
@@ -10,7 +10,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.gnaix.wechatplugin.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
@@ -22,7 +22,7 @@
         </activity>
 
         <service
-            android:name=".QiangHongBaoService"
+            android:name="com.gnaix.wechatplugin.PluginService"
             android:enabled="true"
             android:exported="true"
             android:label="@string/app_name"

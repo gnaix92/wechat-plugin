@@ -1,4 +1,4 @@
-package com.codeboy.qianghongbao;
+package com.gnaix.wechatplugin;
 
 import android.app.Activity;
 import android.content.Intent;
